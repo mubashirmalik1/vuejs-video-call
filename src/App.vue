@@ -62,5 +62,10 @@ export default {
     color: black;
     background-color: transparent;
   }
+  @media only screen and (max-width: 600px) {
+    iframe {
+      min-width: 100%!important;
+    }
+  }
 </style>
 

@@ -24,7 +24,8 @@
 
     <div class="call-container" :class="{ hidden: status === 'home' }">
       <!-- The Daily Prebuilt iframe is embedded in the div below using the ref -->
-      <div id="call" ref="callRef"></div>
+      <div id="call" ref="callRef" style="
+    margin-top: 120px"></div>
       <!-- Only show the control panel if a call is live -->
       <controls
           v-if="status === 'call'"
@@ -204,5 +205,11 @@ label {
 }
 iframe {
   min-width: 800px!important;
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    min-width: 100%!important;
+  }
 }
 </style>
