@@ -1,6 +1,6 @@
 <template>
   <main class="wrapper">
-    <div class="home" v-if="status === 'home'">
+    <div class="home" style="margin-top: 120px;" v-if="status === 'home'">
       <h2>Start A Video Call</h2>
       <div class="start-call-container">
 <!--        <button @click="createAndJoinRoom" :disabled="runningLocally">-->
