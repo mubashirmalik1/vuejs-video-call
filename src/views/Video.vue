@@ -210,6 +210,7 @@ iframe {
 @media only screen and (max-width: 600px) {
   iframe {
     min-width: 100%!important;
+    min-height: 350px!important;
   }
 }
 </style>
