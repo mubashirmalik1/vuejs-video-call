@@ -1,11 +1,11 @@
 <template >
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse" style="z-index: 9999999999;">
         <div class="container-fluid">
             <div class="navbar-header">
             <a class="navbar-brand" href="#">Video Calling</a>
             </div>
-            <ul class="nav navbar-nav navbar-right" v-if="!user">
-                <li>
+            <ul class="nav navbar-nav navbar-right"  v-if="!user">
+                <li >
                     <router-link to="/register">
                         <span class="glyphicon glyphicon-user"></span> 
                         Sign Up
